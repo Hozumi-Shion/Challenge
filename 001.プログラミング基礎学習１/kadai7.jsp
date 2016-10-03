@@ -41,9 +41,9 @@ out.print(AA / BB + "<br>");
 
 //課題7-3
 if(AA >= 3000){
-  out.print(AA * 0.04 + "ポイント獲得しました" + "<br>");
+  out.print((int)(AA * 0.04) + "ポイント獲得しました" + "<br>");
 }else if(AA >= 5000){
-  out.print(AA * 0.05 + "ポイント獲得しました" + "<br>");
+  out.print((int)(AA * 0.05) + "ポイント獲得しました" + "<br>");
 }else{
   out.print(0 + "ポイント獲得しました" + "<br>");
 }
