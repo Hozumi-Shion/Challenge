@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 
 <html>
@@ -24,9 +25,9 @@
     String culture = request.getParameter("culture");
     
     //結果出力
-    out.println(name);
-    out.println(sex);
-    out.println(culture);
+    out.println("<br>" + name + "<br>");
+    out.println("<br>" + sex + "<br>");
+    out.println("<br>" + culture + "<br>");
 
 %>
     </body>
